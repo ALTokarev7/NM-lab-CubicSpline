@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nmlab2-1"
+version = "0.1.0"
+description = ""
+authors = ["ALTokarev7 <sasha_tokarev_02@mail.ru>"]
+readme = "README.md"
+packages = [{include = "nmlab2_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+customtkinter = "^5.2.2"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
